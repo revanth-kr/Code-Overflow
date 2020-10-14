@@ -1,0 +1,12 @@
+using System;
+public class Program
+{
+     public static void Main(string[] args)
+     {
+     	char character;
+     	Console.Write("Enter the character: ");
+     	character = Char.Parse(Console.ReadLine());
+     	Console.WriteLine("The ASCII value of '" + character + "' : " + (int)character);
+     	Console.ReadLine();
+     }
+}
